@@ -154,3 +154,56 @@ Responsibilities:
 
 ```bash
 git clone https://github.com/yourusername/AI-Interview-Agent.git
+
+Move into project folder:
+
+cd AI-Interview-Agent
+
+## 2. Install Required Libraries
+pip install google-generativeai PyPDF2
+
+## 3. Configure Gemini API Key
+Create a Gemini API key from Google AI Studio.
+
+Add your API key:
+
+import google.generativeai as genai
+
+genai.configure(api_key="YOUR_API_KEY")
+
+## Never upload your API key publicly.
+
+## ▶️ How to Run
+Run the notebook:
+AI_Interview_Agent.ipynb
+
+Steps:
+
+1. Upload your resume PDF
+2. Enter job description
+3. Run the AI agents
+4. View generated analysis and feedback
+
+## 📊 Example Outputs
+The system generates:
+
+The system generates:
+
+## Resume Analysis
+. Skills extracted
+. Strengths
+. Weaknesses
+. Suggestions
+
+## Job Matching
+. Match percentage
+. Missing skills
+. Recommendations
+## Interview Preparation
+. Generated questions
+. Mock interview evaluation
+. Improvement feedbac
+
+## ⭐ If you like this project
+
+Give this repository a star ⭐ and feel free to explore the implementation.
